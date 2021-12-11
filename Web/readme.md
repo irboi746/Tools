@@ -8,5 +8,5 @@
   2. length of string to be enumerated 
   3. SQL query name to be enumerated from 
   4. lastly get Request targeted.
-* sample input : `BLINDSQLi.sh "www.example.com" "Something Found!" 20 "Select user()" "id=1'"`
+* sample usage : `BLINDSQLi.sh "www.example.com" "Something Found!" 20 "Select user()" "id=1'"`
  
