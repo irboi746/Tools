@@ -10,6 +10,6 @@
   4. lastly get Request targeted.
 * sample usage : `BLINDSQLi.sh "www.example.com" "Something Found!" 20 "Select user()" "id=1'"`
 
-##Bypass403.sh
+## Bypass403.sh
 * comes with Header_Fuzz_List.txt
  
