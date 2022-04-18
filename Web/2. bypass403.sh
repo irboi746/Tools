@@ -1,6 +1,6 @@
 #!/bin/bash
 # simple bash script to fuzz HTTP header
-# https://book.hacktricks.xyz/pentesting/pentesting-web/403-and-401-bypasses
+# list reference : https://book.hacktricks.xyz/pentesting/pentesting-web/403-and-401-bypasses
 
 read -p 'Header Fuzz list: ' list
 read -p 'ouput file: ' outfile
