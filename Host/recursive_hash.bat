@@ -1,18 +1,21 @@
 @echo off
 
 ::usage 
-::recursive_hash.bat <path to folder to recursively hash>
+::recursive_hash.bat <path to folder to recursively hash> <output path>
+
+echo filename,MD5,SHA1,SHA256; >> %2\output.txt
+
 
 for /R %1 %%f in (*) do ( 
-   echo %%f >> "%1\output.txt"
-   echo MD5 >> "%1\output.txt"
-   certutil -hashfile C:\Users\AdminELS\Desktop\Lab_02_Samples\SET_01\sampleA1_.exe md5 | findstr /R "^[a-fA-F0-9]*$" >> "%1\output.txt"
+   echo %%f >> "%2\output.txt"
+::   echo MD5 >> "%2\output.txt"
+   certutil -hashfile %%f md5 | findstr /R "^[a-fA-F0-9]*$" >> "%2\output.txt"
 
-   echo sha1 >> "%1\output.txt"
-   certutil -hashfile C:\Users\AdminELS\Desktop\Lab_02_Samples\SET_01\sampleA1_.exe sha1 | findstr /R "^[a-fA-F0-9]*$" >> "%1\output.txt"
+::   echo SHA1 >> "%2\output.txt"
+   certutil -hashfile %%f sha1 | findstr /R "^[a-fA-F0-9]*$" >> "%2\output.txt"
 
-   echo sha256 >> "%1\output.txt"
-   certutil -hashfile C:\Users\AdminELS\Desktop\Lab_02_Samples\SET_01\sampleA1_.exe sha256 | findstr /R "^[a-fA-F0-9]*$" >> "%1\output.txt"
+::   echo SHA256 >> "%2\output.txt"
+   certutil -hashfile %%f sha256 | findstr /R "^[a-fA-F0-9]*$" >> "%2\output.txt"
 
-   echo: >> "%1\output.txt"
+   echo ; >> "%2\output.txt"
 )
