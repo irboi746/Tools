@@ -1,7 +1,7 @@
 @echo off
 
 ::usage 
-:: recursive_hash.bat <path to folder to recursively hash>
+::recursive_hash.bat <path to folder to recursively hash>
 
 for /R %1 %%f in (*) do ( 
    echo %%f >> "%1\output.txt"
