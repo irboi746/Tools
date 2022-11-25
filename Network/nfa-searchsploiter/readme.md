@@ -11,6 +11,41 @@ Nessus is a tool that can help with scaling but it is only scans for vulnerabili
 2. Extracts the cve value that is used for searchsploit
 3. Outputs a new csv file with link to public exploit
 
+## Usage
+### Creating and Accessing Virtual Environment
+- Windows
+```
+python -m venv venv
+/venv/Scripts/activate.bat
+```
+- Linux
+```
+python3 -m venv venv
+source /venv/bin/activate
+```
+### Install Packages
+```
+pip3 install pandas
+pip3 install openpyxl
+pip3 install pyexploitdb
+```
+
+### Modifying pyExploitDb packages (as of 25 Nov 2022)
+[Issues with pyExploitDb](https://github.com/GoVanguard/pyExploitDb/issues/7)
+
+### Usage
+In `main.py` change `IN_PATH` and `OUT_PATH` to the input and output path repectively.
+
+- Windows
+```
+python main.py
+```
+
+- Linux
+```
+python3 main.py
+```
+
 ## Libraries & Helping Tools :
 ### Tools
 [Nessus File Analyzer](https://github.com/LimberDuck/nessus-file-analyzer) a great tool that can be used to parse '.nessus' files. 
