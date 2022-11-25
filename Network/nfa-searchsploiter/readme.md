@@ -12,6 +12,8 @@ Nessus is a tool that can help with scaling but it is only scans for vulnerabili
 3. Outputs a new csv file with link to public exploit
 
 ## Usage
+For Windows, git.exe will have to be installed for this to work.
+
 ### Creating and Accessing Virtual Environment
 - Windows
 ```
