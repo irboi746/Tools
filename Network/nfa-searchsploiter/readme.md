@@ -18,5 +18,7 @@ Nessus is a tool that can help with scaling but it is only scans for vulnerabili
 ### Python Libraries
 [pyExploiDb](https://pypi.org/project/pyExploitDb/)
    - [Issues with pyExploitDb](https://github.com/GoVanguard/pyExploitDb/issues/7)
+
 [pandas](https://pypi.org/project/pandas/)
+
 [openpyxl](https://pypi.org/project/openpyxl/)
