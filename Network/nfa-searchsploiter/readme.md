@@ -1,6 +1,10 @@
 # nfa-searchsploiter
 An automation to do searchsploit on Nessus-File-Analyser "vulnerability" result based on CVE.
 
+## Roadmap
+- [x] Basic Feature (Search ExploitDB for Exploits)
+- [ ] To include more sources. (Possible integation with [go-exploitdb](https://github.com/vulsio/go-exploitdb))
+
 ## Problem Statement
 Searchsploit is a good tool to search for public exploit use however it is not scalable Additionally, it does not search for exploits based on CVE.
 
