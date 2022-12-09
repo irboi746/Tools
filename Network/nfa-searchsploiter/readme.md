@@ -39,6 +39,37 @@ pip3 install pyexploitdb
 ### Modifying pyExploitDb packages (as of 25 Nov 2022)
 [Issues with pyExploitDb](https://github.com/GoVanguard/pyExploitDb/issues/7)
 
+### Setting up go-exploitdb
+
+The recent changes in exploitdb from github to gitlab seems to have cause some issue when fetching from exploitdb. 
+Fetching from the other databases are fine. 
+
+Clone Repo
+```
+git clone https://github.com/vulsio/go-exploitdb.git
+```
+
+Build Docker Image
+```
+sudo docker build . -t "go-exploitdb"
+```
+
+Run Docker Image
+```
+sudo docker run --network="host" go-exploitdb server
+```
+
+Fetch Database
+```
+sudo docker exec -it <docker name> /bin/bash
+go-exploitdb fetch <name of db>
+```
+
+Basic Request
+```
+curl 127.0.0.1:1236/cves/cve2017-8529
+```
+
 ### Usage
 In `main.py` change `IN_PATH` and `OUT_PATH` to the input and output path repectively.
 
