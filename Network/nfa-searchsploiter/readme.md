@@ -39,8 +39,7 @@ pip3 install pyexploitdb
 ### Modifying pyExploitDb packages (as of 25 Nov 2022)
 [Issues with pyExploitDb](https://github.com/GoVanguard/pyExploitDb/issues/7)
 
-### Setting up go-exploitdb
-
+### Setting up go-exploitdb (as of 9 Dec 2022) 
 The recent changes in exploitdb from github to gitlab seems to have cause some issue when fetching from exploitdb. 
 Fetching from the other databases are fine. 
 
