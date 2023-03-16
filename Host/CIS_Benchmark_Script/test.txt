@@ -1,0 +1,6 @@
+1Initial Setup
+1.1Filesystem Configuration
+1.1.1Disable unused filesystems
+1.1.1.1Ensure mounting of cramfs filesystems is disabled (Automated)
+1.1.1.2Ensure mounting of squashfs filesystems is disabled (Automated)
+1.1.1.3Ensure mounting of udf filesystems is disabled (Automated)
