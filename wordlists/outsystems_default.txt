@@ -1,0 +1,27 @@
+// credits : https://www.outsystems.com/forums/discussion/51738/web-services-exposed-by-platform/ && https://github.com/5O4R3S/OutSystems-Scan/tree/main
+
+/ADAuthProvider/OSPlatformAuthentication.asmx
+/ECT_Provider/WS_ECT.asmx
+/ECT_Server_Connector/ECT_Server_WS.asmx
+/EPA_Taskbox/WS_Inbox.asmx
+/LDAPAuthProvider/OSPlatformAuthentication.asmx
+/OutSystemsNowService/ApplicationConfig.asmx
+/PerformanceProbe/ProbeCommunication.asmx
+/CloudConnectAgent/CloudConnect.asmx
+/ServiceCenter/IntegratedDebugger.asmx
+/ServiceCenter/IntegrationStudio.asmx
+/ServiceCenter/Monitor.asmx
+/ServiceCenter/Operation.asmx
+/ServiceCenter/OutSystemsPlatform.asmx
+/ServiceCenter/PlatformServices_v7_0_0.asmx
+/ServiceCenter/PlatformServices_v8_0_0.asmx
+/ServiceCenter/Profiler.asmx
+/ServiceCenter/ServiceStudio.asmx
+/ServiceCenter/Solutions.asmx
+/ServiceCenter/Templates.asmx
+/ServiceCenter/rest/NativeOperations/
+/ServiceCenter/rest/PlatformServices/
+/ServiceCenter/rest/Preloader/
+/SAPDevService/rest/SAP/
+/SAPDevService/rest/SAP/swagger.json
+/SAPDevService/rest/SAP/CheckSAPHealth
